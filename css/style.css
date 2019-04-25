@@ -1,0 +1,141 @@
+	@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
+
+
+body {
+  background-color: #6495ED; /*cornflower blue*/
+}
+
+/* nav bar centered across the top */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  color: #FFD700;
+  font: Merriweather;
+}
+
+
+/* control main heading */
+.position_text {
+  display: flex;
+  font-family: Merriweather, sans-serif;
+  color: #FFFFFF;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* change the content_box to flex instead of grid? */
+
+
+#container {
+  margin: auto;
+  width:50%;
+ 
+}
+
+#container > img {
+  width: 75%;
+  display: block;
+  margin:auto;
+}
+
+#about_box {
+  margin:auto;
+  width:50%;
+  
+}
+
+#about_box > img {
+  width: 75%;
+  display: block;
+  margin:auto;
+  
+}
+
+
+/* style text content uniformly */
+
+.text_content {
+  display: flex;
+  margin: auto;
+  max-width: 700px;
+  max-height: 1500px;
+  text-align: center;
+  align-items: center;
+  margin-top:10px;
+  font-size: large;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+/* Two image containers for side by side photos */
+
+.archpix {
+  
+ display:block;
+ margin:auto;
+ 
+}
+ 
+ 
+ 
+ 
+  /*
+ background-color:#B0C4DE;  light blue 
+ background-size: cover; */
+
+
+
+/* Box holding the image and the text 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
+
+
+/*Use align-self property to push the text to the bottom of the flex-box
+
+.card-subtitle {
+  align-self: flex-end;
+  width: 100%;
+  background-color: rgba(0,0,0,.2);
+  color:white;
+  padding:5px
+}
+
+.card-image {
+  background-size: cover;
+  background-position: center center;
+}
+
+*/
+
+
+/* Justify-content: space-around used to evenly distribute links along footer. */
+
+.footer {
+  display:flex;
+  background-color: #708090; /*slate grey*/
+  width: auto;
+  height:50px;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+  font-weight: bolder;
+}
+
